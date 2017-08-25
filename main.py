@@ -278,7 +278,7 @@ class VideoStreamingTest(object):
 
 # parse the argument
 parser = argparse.ArgumentParser(
-    description='CapStone Project: A Unified Demo System for Autonomous Driving')
+    description='Visual AutoDrive: A Unified Demo System for Autonomous Driving')
 parser.add_argument(
     'if_seg',
     help='set segmentation mode, 1 for semantic segmentation, 0 for object and lane detection')

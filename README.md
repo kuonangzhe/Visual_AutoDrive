@@ -1,4 +1,4 @@
-CapStone Project: A Unified Demo System for Autonomous Driving
+Visual AutoDrive: A Unified Demo System for Autonomous Driving
 
 The project is composed of several parts: PC, Raspberry Pi, Arduino, Android App, model vehicle, and playground. On model vehicle, arduino controls servor for running, which is controlled by App on cell phone. The pi camera and three ultrasonic sensors are connected to Raspberry Pi, obtaining data and send them to PC via Raspberry Pi through wifi. The PC processes the streaming images and distance data from sensors in real time and visualize on the screen, and saves as video at meantime.
 
