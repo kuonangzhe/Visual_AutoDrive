@@ -70,7 +70,7 @@ optional arguments:
                         cityscape/
 ```
 #### Ultrasonic sensor:
-* measuring & data storage (csv):
+* distance measuring & data storage (csv):
 	- open a terminal on PC
 		```
 		python ultrasonic_server_test_save.py
@@ -80,16 +80,22 @@ optional arguments:
 		python ultrasonic_client.py
 		```
 
-* measuring & real-time visualization:
+* distance measuring & real-time visualization:
 	- open a terminal and run ultrasonic_server_test.py on PC
 	- open a terminal and run ultrasonic_client.py on Raspberry Pi
 
 #### Record Video via Pi camera:
-* open a terminal and run record_video_file.py on Raspberry Pi
+* open a terminal on Raspberry Pi
+	```
+	python record_video_file.py
+	```
 
 #### Real-time video processing and visualization:
-- open a terminal and run stream_server_test.py on PC
-- open a terminal and run stream_client.py on Raspberry Pi
+- open a terminal and run main.py on PC (see Main file usage)
+- open a terminal on Raspberry Pi
+	```
+	python stream_client.py
+	```
 
 #### Arduino code 
 - arduino/bluetooth_control.ino
