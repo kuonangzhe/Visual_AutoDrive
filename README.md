@@ -2,6 +2,8 @@ Visual AutoDrive: A Unified Demo System for Autonomous Driving
 
 The project is composed of several parts: PC, Raspberry Pi, Arduino, Android App, model vehicle, and playground. On model vehicle, arduino controls servor for running, which is controlled by App on cell phone. The pi camera and three ultrasonic sensors are connected to Raspberry Pi, obtaining data and send them to PC via Raspberry Pi through wifi. The PC processes the streaming images and distance data from sensors in real time and visualize on the screen, and saves as video at meantime.
 
+Currently, the project is capable to do real-time work on consumer level GPU on object and lane detection, and semantic segmentation. We tried traffic sign detection with both Haar Cascade and "Traffic-Sign Detection and Classification in the Wild" by Zhe Zhu et al, but the first one is too unstable and we have to train dozens of models, the second one is too slow for practical usage. 
+
 ## Dependencies:
 * PC
 	- numpy
