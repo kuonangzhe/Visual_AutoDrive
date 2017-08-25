@@ -1,6 +1,6 @@
 CapStone Project: A Unified Demo System for Autonomous Driving
 
-The project is composed of several parts: PC, Raspberry Pi, Arduino, Android App, model vehicle, and playground. On model vehicle, arduino controls servor for running, which is controlled by App on cell phone. The pi camera and three ultrasonic sensors are connected to Raspberry Pi, obtaining data and send them to PC via Raspberry Pi through wifi. The PC process the streaming images and distance data from sensors in real time and visualize on the screen, and save as video at meantime.
+The project is composed of several parts: PC, Raspberry Pi, Arduino, Android App, model vehicle, and playground. On model vehicle, arduino controls servor for running, which is controlled by App on cell phone. The pi camera and three ultrasonic sensors are connected to Raspberry Pi, obtaining data and send them to PC via Raspberry Pi through wifi. The PC processes the streaming images and distance data from sensors in real time and visualize on the screen, and saves as video at meantime.
 
 ## Dependencies:
 * PC
@@ -68,28 +68,26 @@ optional arguments:
                         cityscape/
 ```
 #### Ultrasonic sensor:
-measuring & data storage (csv):
+* measuring & data storage (csv):
+	- open a terminal and run ultrasonic_server_test_save.py on PC
+	- open a terminal and run ultrasonic_client.py on Raspberry Pi
 
-open a terminal and run ultrasonic_server_test_save.py on PC
-
-open a terminal and run ultrasonic_client.py on Raspberry Pi
-
-measuring & real-time visualization:
-open a terminal and run ultrasonic_server_test.py on PC
-open a terminal and run ultrasonic_client.py on Raspberry Pi
+* measuring & real-time visualization:
+	- open a terminal and run ultrasonic_server_test.py on PC
+	- open a terminal and run ultrasonic_client.py on Raspberry Pi
 
 #### Record Video via Pi camera:
-open a terminal and run record_video_file.py on Raspberry Pi
+* open a terminal and run record_video_file.py on Raspberry Pi
 
 #### Real-time video processing and visualization:
-open a terminal and run stream_server_test.py on PC
-open a terminal and run stream_client.py on Raspberry Pi
+- open a terminal and run stream_server_test.py on PC
+- open a terminal and run stream_client.py on Raspberry Pi
 
 #### Arduino code 
-arduino/bluetooth_control.ino
+- arduino/bluetooth_control.ino
 
 #### Android App
-arduino/controller.apk
+- arduino/controller.apk
 
 ## Acknowledgement
 This work is built upon the following great projects:
