@@ -25,11 +25,11 @@ To look up the ip address, open a terminal and type ipconfig with ENTER, the ip 
 
 ## Usage:
 
-# Main file
+### Main file
 open a terminal and run main.py on PC
 for first time, run main.py --help for details
 
-# Ultrasonic sensor:
+#### Ultrasonic sensor:
 measuring & data storage (csv):
 open a terminal and run ultrasonic_server_test_save.py on PC
 open a terminal and run ultrasonic_client.py on Raspberry Pi
@@ -38,17 +38,17 @@ measuring & real-time visualization:
 open a terminal and run ultrasonic_server_test.py on PC
 open a terminal and run ultrasonic_client.py on Raspberry Pi
 
-#Record Video via Pi camera:
+#### Record Video via Pi camera:
 open a terminal and run record_video_file.py on Raspberry Pi
 
-#Real-time video processing and visualization:
+#### Real-time video processing and visualization:
 open a terminal and run stream_server_test.py on PC
 open a terminal and run stream_client.py on Raspberry Pi
 
-#Arduino code 
+#### Arduino code 
 arduino/arduino_bluetooth_control.ino
 
-#Android App
+#### Android App
 arduino/controller.apk
 
 ## Acknowledgement
