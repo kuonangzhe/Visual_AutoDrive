@@ -72,13 +72,13 @@ optional arguments:
 #### Ultrasonic sensor:
 * measuring & data storage (csv):
 	- open a terminal on PC
-```
-python ultrasonic_server_test_save.py
-```
+		```
+		python ultrasonic_server_test_save.py
+		```
 	- open a terminal on Raspberry Pi
-```
-python ultrasonic_client.py
-```
+		```
+		python ultrasonic_client.py
+		```
 
 * measuring & real-time visualization:
 	- open a terminal and run ultrasonic_server_test.py on PC
