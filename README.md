@@ -16,7 +16,6 @@ Currently, the project is capable to do real-time work on consumer level GPU on 
 
 * Raspberry Pi
 	- picamera
-	- csv
 	- numpy
 	- RPi
 	- matplotlib
@@ -112,7 +111,7 @@ See img file for details
 * 7.4 V 2399MAH Lithium Battery
 * Arduino Uno Board with Bluetooth module
 * Acrylic framework
-* Cardboard playground (4m * 4m)
+* Cardboard playground (3m * 4m)
 
 ## Authors
 Chongzhao Mao, Chenghao Wei, Tianheng Hu, Yimeng Huang, Yue Xie
