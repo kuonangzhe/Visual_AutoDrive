@@ -21,9 +21,9 @@ This is the instruction on using code on PC, Raspberry Pi, and Arduino for diffe
 * to use wifi streaming mode, all the socket id for both PC and Raspberry Pi side should use same ip address on PC.
 
 * to look up the ip address, open a terminal and type ipconfig with ENTER
-'''
+```
 czm@czm:~$ ifconfig
-'''
+```
 The ip address in wlp5s0 after inet or similar should be the right one.
 
 * download the dataset of cityscape into directory cityscape/
@@ -33,11 +33,11 @@ The ip address in wlp5s0 after inet or similar should be the right one.
 ### Main file
 * open a terminal, go into project directory and run main.py on PC
 * for first time, run main.py --help for details
-'''
+```
 python main.py --help
-'''
+```
 you will see
-'''
+```
 czm@czm:~/CapStone/Capstone$ python main.py --help
 Using TensorFlow backend.
 usage: main.py [-h] [-v VIDEO_PATH] [-i IMG_PATH] if_seg if_video
@@ -57,7 +57,7 @@ optional arguments:
   -i IMG_PATH, --img_path IMG_PATH
                         path to imgs dir, defaults to cityscape dir:
                         cityscape/
-'''
+```
 #### Ultrasonic sensor:
 measuring & data storage (csv):
 
