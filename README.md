@@ -52,7 +52,7 @@ czm@czm:~/Visual_AutoDrive$ python main.py --help
 Using TensorFlow backend.
 usage: main.py [-h] [-v VIDEO_PATH] [-i IMG_PATH] if_seg if_video
 
-CapStone Project: A Unified Demo System for Autonomous Driving
+Visual AutoDrive: A Unified Visual Demo System for Autonomous Driving
 
 positional arguments:
   if_seg                set segmentation mode, 1 for semantic segmentation, 0
@@ -103,7 +103,7 @@ optional arguments:
 - arduino/controller.apk
 
 ## Hardware
-See img file for details
+See img directory for details
 * Pi camera (RGB)
 * Three HC-SR04 Ultrasonic sensor: 
 * Two 1:48 Gear Motors 
