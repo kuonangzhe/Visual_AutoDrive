@@ -1,4 +1,6 @@
-This is the instruction on using code on PC, Raspberry Pi, and Arduino for different purpose.
+CapStone Project: A Unified Demo System for Autonomous Driving
+
+The project is composed of several parts: PC, Raspberry Pi, Arduino, Android App, model vehicle, and playground. On model vehicle, arduino controls servor for running, which is controlled by App on cell phone. The pi camera and three ultrasonic sensors are connected to Raspberry Pi, obtaining data and send them to PC via Raspberry Pi through wifi. The PC process the streaming images and distance data from sensors in real time and visualize on the screen, and save as video at meantime.
 
 ## Dependencies:
 * PC
@@ -18,6 +20,12 @@ This is the instruction on using code on PC, Raspberry Pi, and Arduino for diffe
 	- matplotlib
 
 ## Tips
+* there are three mode: video processing (input.mp4), image set processing (cityscape), and wifi streaming video from remote camera on vehicle
+
+* to use video processing mode, add your video named as input.mp4 or specify with argument
+
+* to use image set processing mode, download the dataset of cityscape into directory cityscape/
+
 * to use wifi streaming mode, all the socket id for both PC and Raspberry Pi side should use same ip address on PC.
 
 * to look up the ip address, open a terminal and type ipconfig with ENTER
@@ -26,7 +34,8 @@ czm@czm:~$ ifconfig
 ```
 The ip address in wlp5s0 after inet or similar should be the right one.
 
-* download the dataset of cityscape into directory cityscape/
+* more details can be found in Usage below
+
 
 ## Usage:
 
@@ -38,7 +47,7 @@ python main.py --help
 ```
 you will see
 ```
-czm@czm:~/CapStone/Capstone$ python main.py --help
+czm@czm:~/Visual_AutoDrive$ python main.py --help
 Using TensorFlow backend.
 usage: main.py [-h] [-v VIDEO_PATH] [-i IMG_PATH] if_seg if_video
 
